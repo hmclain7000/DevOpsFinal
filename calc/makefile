@@ -21,7 +21,7 @@ build:
 # Run tests
 test:
 	@echo "Running tests"
-	@pytest test_calculator.py
+	@pytest $(TEST_SCRIPT)
 
 
 # Run linter
