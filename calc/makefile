@@ -23,7 +23,6 @@ test:
 	@echo "Running tests"
 	@pytest $(TEST_SCRIPT)
 
-
 # Run linter
 lint:
 	@echo "Linting"
